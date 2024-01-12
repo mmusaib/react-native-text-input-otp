@@ -3,7 +3,7 @@ import { View,TextInput } from 'react-native';
 
 const OtpInput = ({ digits, otpRef, style, setOtp, otp, _render }) => {
     return(
-        <View style={{ flex: 1 }}>
+        <View style={{ width: '100%' }}>
             <TextInput 
                 maxLength={ digits }
                 ref={ otpRef }

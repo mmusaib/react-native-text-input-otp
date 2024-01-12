@@ -27,7 +27,6 @@ export const styles = StyleSheet.create({
         minHeight: 40
     },
     textStyles: {
-        width: '100%', 
         textAlign: 'center',
         fontSize: 16
     },
