@@ -1,0 +1,35 @@
+{
+  "name": "react-native-otp-text-input",
+  "version": "1.0.0",
+  "description": "A light weight react-native and expo split text input",
+  "main": "dist/index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf ./dist && babel src --out-dir dist",
+    "prepare": "rimraf ./dist && babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmusaib/react-native-otp-text-input.git"
+  },
+  "keywords": [
+    "otp",
+    "otp-text-input",
+    "split-text-input",
+    "expo-otp",
+    "expo-otp-text-input"
+  ],
+  "author": "Muhammad Musaib",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmusaib/react-native-otp-text-input/issues"
+  },
+  "homepage": "https://github.com/mmusaib/react-native-otp-text-input#readme",
+  "dependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.7",
+    "metro-react-native-babel-preset": "^0.77.0",
+    "rimraf": "^5.0.5"
+  }
+}
