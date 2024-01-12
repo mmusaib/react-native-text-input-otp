@@ -18,9 +18,10 @@
 
 <h4>Light Weight and <b>Robust</b> Splitted Text Input.</h4>
 
--   Design skeleton loading screen of your choice 
--   Pass colors of your choice
--   Powered by Reanimated 3
+-   Design split OTP component of your choice 
+-   Pass number of OTP digits by your choice
+-   Fully Customizable by props
+-   Very Easy to use
 -   Make your apps professional in UI/UX
 
 
@@ -60,9 +61,14 @@ required props to display the splitted otp text input as shown in the code snipp
 import OtpTextInput from 'react-native-text-input-otp'
 
 const App = () => {
+  const [otp, setOtp] = React.useState('');
 
   return(
-    
+    <OtpTextInput 
+        otp={ otp }
+        setOtp={ setOtp }
+        digits={5} 
+    />
   )
 
 };
@@ -70,14 +76,17 @@ const App = () => {
 
 
 
-For Live `Demo` [(Expo Snack)](https://snack.expo.dev/@mmusaib/react-native-skeleton-loading?platform=android)
+For Live `Demo` [(Expo Snack)](https://snack.expo.dev/@mmusaib/react-native-text-input-otp?platform=android)
 
 # ⭐ Props  for  the component
-| Name | Type | Description |
-| ---- | ----------- | ----------- |
-| background | hex color string | Hex color string for the background of loading component
-| highlight | hex color string | Hex color string for the highlight of loading component
-
+| Name | Type | Reuired | Description |
+| ---- | ----------- | ------ | ----------- |
+| otp | state variable | Yes | State variable to store the otp
+| setOtp | state update method | Yes | Method to update state variable
+| digits | numeric | Yes | No of otp split fields
+| style | style object | No | Style of the input fields
+| fontStyle | style object | No | Style of font in input fields
+| focusedStyle | style object | No | Style of field when in focus
 
 
 
