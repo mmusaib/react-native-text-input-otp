@@ -1,5 +1,5 @@
 {
-  "name": "react-native-otp-text-input",
+  "name": "react-native-text-input-otp",
   "version": "1.0.0",
   "description": "A light weight react-native and expo split text input",
   "main": "dist/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mmusaib/react-native-otp-text-input.git"
+    "url": "git+https://github.com/mmusaib/react-native-text-input-otp.git"
   },
   "keywords": [
     "otp",

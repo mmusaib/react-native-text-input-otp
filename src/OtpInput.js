@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { View,TextInput } from 'react-native';
 
 const OtpInput = ({ digits, otpRef, style, setOtp, otp, _render }) => {

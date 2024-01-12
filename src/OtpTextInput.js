@@ -1,3 +1,4 @@
+import React from 'react';
 import OtpInput from "./OtpInput";
 import { 
         styles, 
