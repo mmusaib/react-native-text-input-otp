@@ -11,7 +11,8 @@
 🟢 Splitted OTP Text Input for ReactNative and Expo powered apps
 
 <a href="https://twitter.com/_mmusaib" target="_blank"></a>
-<img src="https://i.imgur.com/toxEFWe.png" width="500" />
+<img src="https://i.imgur.com/IFq4drO.gif" width="500" />
+<img src="https://i.imgur.com/uAir1in.gif" width="500" />
 </div>
 
 

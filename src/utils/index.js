@@ -24,7 +24,7 @@ export const styles = StyleSheet.create({
         borderRadius: 5,
         borderColor: '#DEDEDE',
         paddingVertical: 5,
-
+        minHeight: 40
     },
     textStyles: {
         width: '100%', 
