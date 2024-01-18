@@ -26,7 +26,7 @@
     "url": "https://github.com/mmusaib/react-native-otp-text-input/issues"
   },
   "homepage": "https://github.com/mmusaib/react-native-otp-text-input#readme",
-  "dependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.23.4",
     "@babel/core": "^7.23.7",
     "metro-react-native-babel-preset": "^0.77.0",
