@@ -1,6 +1,6 @@
 {
   "name": "react-native-text-input-otp",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A light weight react-native and expo split text input",
   "main": "dist/index.js",
   "types": "index.d.ts",
